@@ -28,7 +28,7 @@ for i, _ in enumerate(left_numbers):
 print(total_distance)
 
 # Part 2
-similarity_sum = 0
+similarity_sum = 0 # pylint: disable=invalid-name
 for i, _ in enumerate(left_numbers):
     number_count = right_numbers.count(left_numbers[i])
     similarity_score = int(number_count) * int(left_numbers[i])
