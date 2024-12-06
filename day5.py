@@ -24,7 +24,6 @@ def correct_page_order(bad_pages: list) -> list:
         Args: bad_pages (list): a list of pages that are out of order
         Returns: list: a list of pages that are in order
     """
-
     # Create set for rules providing fast/quick access
     rules_set = set(rules_list)
     # Most counterintuitive True/False setup you've ever seen.
