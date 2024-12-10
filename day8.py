@@ -116,6 +116,7 @@ for frequency, coordinates in coordinate_map.items():
             # create maximum x/y values because line length
             x_len = len(input_map) # pylint: disable=invalid-name
             y_len = len(input_map[0]) # pylint: disable=invalid-name
+            
             # check if the antinodes exist on valid coordinates
             if all(0 <= n < x_len and 0 <= n < y_len for n in anti_coord_a):
                 antinode_locations.add(anti_coord_a)
