@@ -1,7 +1,7 @@
 """
     Advent of Code Day 10
     Brendan Swigart
-    This was somewhat easier than the previous ilk...
+    This was somewhat easier than the previous ilk
 """
 
 with open('day10.txt', encoding='utf-8') as file:
